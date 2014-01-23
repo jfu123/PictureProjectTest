@@ -116,6 +116,7 @@ public class FileChooser
 		try
 		{
 			// get the URL for where we loaded this class
+			//Removed this line for Java 7 Compilation
 			// Class currClass = Class.forName("FileChooser");
 			URL classURL = FileChooser.class.getResource("FileChooser.class");
 			URL fileURL = new URL(classURL, "../images/");
